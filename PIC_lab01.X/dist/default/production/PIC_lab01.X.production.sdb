@@ -1,0 +1,174 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q43 ]
+[d frameptr 1249 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"127 F:\jvourv\IHU\Lessons\MCU\Lab\Proj\PIC_lab\PIC_lab01\PIC_lab01.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"38981 C:/Users/Tribe/.mchp_packs/Microchip/PIC18F-Q_DFP/1.7.135/xc8\pic\include\proc\pic18f57q43.h
+"38981
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+[s S38 . 1 `uc 1 ANSELB0 1 0 :1:0 
+`uc 1 ANSELB1 1 0 :1:1 
+`uc 1 ANSELB2 1 0 :1:2 
+`uc 1 ANSELB3 1 0 :1:3 
+`uc 1 ANSELB4 1 0 :1:4 
+`uc 1 ANSELB5 1 0 :1:5 
+`uc 1 ANSELB6 1 0 :1:6 
+`uc 1 ANSELB7 1 0 :1:7 
+]
+"39494
+[u S47 . 1 `S38 1 . 1 0 ]
+"39494
+"39494
+[v _ANSELBbits ANSELBbits `VES47  1 e 1 @1032 ]
+[s S83 . 1 `uc 1 WPUB0 1 0 :1:0 
+`uc 1 WPUB1 1 0 :1:1 
+`uc 1 WPUB2 1 0 :1:2 
+`uc 1 WPUB3 1 0 :1:3 
+`uc 1 WPUB4 1 0 :1:4 
+`uc 1 WPUB5 1 0 :1:5 
+`uc 1 WPUB6 1 0 :1:6 
+`uc 1 WPUB7 1 0 :1:7 
+]
+"39556
+[u S92 . 1 `S83 1 . 1 0 ]
+"39556
+"39556
+[v _WPUBbits WPUBbits `VES92  1 e 1 @1033 ]
+"39973
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"40469
+[v _ANSELD ANSELD `VEuc  1 e 1 @1048 ]
+[s S27 . 1 `uc 1 ANSELE0 1 0 :1:0 
+`uc 1 ANSELE1 1 0 :1:1 
+`uc 1 ANSELE2 1 0 :1:2 
+]
+"40791
+[u S31 . 1 `S27 1 . 1 0 ]
+"40791
+"40791
+[v _ANSELEbits ANSELEbits `VES31  1 e 1 @1056 ]
+"47719
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+[s S62 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"47798
+[u S71 . 1 `S62 1 . 1 0 ]
+"47798
+"47798
+[v _TRISBbits TRISBbits `VES71  1 e 1 @1223 ]
+"47843
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"47905
+[v _TRISD TRISD `VEuc  1 e 1 @1225 ]
+[s S104 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+]
+"47979
+[u S108 . 1 `S104 1 . 1 0 ]
+"47979
+"47979
+[v _TRISEbits TRISEbits `VES108  1 e 1 @1226 ]
+"48061
+[v _PORTA PORTA `VEuc  1 e 1 @1230 ]
+[s S159 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"48140
+[u S168 . 1 `S159 1 . 1 0 ]
+"48140
+"48140
+[v _PORTBbits PORTBbits `VES168  1 e 1 @1231 ]
+"48185
+[v _PORTC PORTC `VEuc  1 e 1 @1232 ]
+"48247
+[v _PORTD PORTD `VEuc  1 e 1 @1233 ]
+[s S181 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"48322
+[u S186 . 1 `S181 1 . 1 0 ]
+"48322
+"48322
+[v _PORTEbits PORTEbits `VES186  1 e 1 @1234 ]
+[s S117 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_PD 1 0 :1:5 
+]
+"48534
+[s S120 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_TO 1 0 :1:6 
+]
+"48534
+[s S123 . 1 `uc 1 C 1 0 :1:0 
+`uc 1 DC 1 0 :1:1 
+`uc 1 Z 1 0 :1:2 
+`uc 1 OV 1 0 :1:3 
+`uc 1 N 1 0 :1:4 
+`uc 1 nPD 1 0 :1:5 
+`uc 1 nTO 1 0 :1:6 
+]
+"48534
+[s S131 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 PD 1 0 :1:5 
+`uc 1 TO 1 0 :1:6 
+]
+"48534
+[u S135 . 1 `S117 1 . 1 0 `S120 1 . 1 0 `S123 1 . 1 0 `S131 1 . 1 0 ]
+"48534
+"48534
+[v _STATUSbits STATUSbits `VES135  1 e 1 @1240 ]
+"117 F:\jvourv\IHU\Lessons\MCU\Lab\Proj\PIC_lab\PIC_lab01\PIC_lab01.X\main.c
+[v _sum sum `uc  1 e 1 0 ]
+[v _difference difference `uc  1 e 1 0 ]
+"121
+[v _carry_sum carry_sum `a  1 e 1 0 ]
+[v _carry_difference carry_difference `a  1 e 1 0 ]
+"125
+[v _overflow_sum overflow_sum `a  1 e 1 0 ]
+[v _overflow_difference overflow_difference `a  1 e 1 0 ]
+"127
+[v _main main `(v  1 e 1 0 ]
+{
+"211
+} 0
